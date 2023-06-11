@@ -1,7 +1,15 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Content from "./jsxComponent/Content";
+import Footer from "./jsxComponent/Footer";
+import Header from "./jsxComponent/Header";
+
 function App() {
   return (
     <div>
-      <h1>hello world</h1>
+      <Header />
+      <Content />
+      <Footer />
     </div>
   );
 }
