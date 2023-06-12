@@ -8,9 +8,13 @@ body {
 
 .person-card {
     margin: 20px 10px;
-    border: solid black 2px;
+    border: solid rgb(244, 244, 244) 2px;
     padding: 20px 0 0;
     text-align: center
+}
+
+.dark{
+    border: solid black;
 }
 
 .person-img {
