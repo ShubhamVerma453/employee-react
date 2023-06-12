@@ -23,11 +23,14 @@ function Content() {
             {employeeList.map(employee => {
                 return <EmployeeCard
                     key={employee.id}
+                    id={employee.id}
+                    list={employeeList}
                     designation={employee.designation}
                     name={employee.fullName}
                     gender={employee.gender}
-                    team = {employee.teamName}
-                    selectTeam = {selectTeam} />
+                    team={employee.teamName}
+                    selectTeam={selectTeam}
+                    setEmployeeList={setEmployeeList} />
             }
             )}
         </main>

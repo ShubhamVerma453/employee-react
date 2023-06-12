@@ -13,7 +13,11 @@ body {
     text-align: center
 }
 
-.dark{
+.red {
+    border: solid red;
+}
+
+.dark {
     border: solid black;
 }
 
