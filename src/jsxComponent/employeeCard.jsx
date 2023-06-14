@@ -12,8 +12,8 @@ function EmployeeCard(props) {
     return (
 
         <div className="regular-margin col-md-3 col-sm-4" onClick={updatePerson} >
-            <div className={props.selectTeam == props.team ? "dark person-card" : (props.team === " " ? "red person-card" : "person-card")}>
-                <img src={props.gender == "male" ? male : female} className="person-img" />
+            <div className={props.selectTeam === props.team ? "dark person-card" : (props.team === " " ? "red person-card" : "person-card")}>
+                <img src={props.gender === "male" ? male : female} className="person-img" alt="personImage"/>
                 <div >
                     <h5 className="">{props.name}</h5>
                     <p className="">{props.designation}</p>
